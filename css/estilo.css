@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*CSS Reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#topo {
+  justify-content: center;
+  border-bottom: 3px solid #F5C6AA;
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  margin-bottom: 20px;
+  background-color: #986D8E;
+}
+
+#titulo {
+  color: #F5C6AA;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+}
+
+.box-dicas {
+  background-color: #FDF6F0;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 70vw;
+}
+
+.titulo-destaque {
+  color: #FFAA4C;
+  font-weight: 700;
+}
+
+.box-dicas h5 {
+  color: #FCD8D4;
+  font-weight: 500;
+}
+
+P {
+  color: #474747;
+  font-weight: 200;
+}
+
+.box-dicas header {
+  margin-bottom: 10px;
+}
+
+.box-noticia {
+  border: 2px solid black;
+  width: 501px;
+  margin: 10px;
+}
+
+.centralizado {
+  margin-left: auto;
+  margin-right: auto;
+  width: 72vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+
+  .img-box.noticia {
+    width: 100%;
+  }
